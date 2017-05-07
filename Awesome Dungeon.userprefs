@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DungeoneerAssets/Resources/Map1.txt">
+    <Files>
+      <File FileName="Assets/DungeoneerAssets/Resources/Map1.txt" Line="45" Column="27" />
+      <File FileName="Assets/DungeoneerAssets/Scripts/Monsters/AI/FighterMonster.cs" Line="1" Column="1" />
+      <File FileName="Assets/DungeoneerAssets/Scripts/Monsters/AI/TankMonster.cs" Line="1" Column="1" />
+      <File FileName="Assets/DungeoneerAssets/Scripts/Monsters/AI/SpeedDemonMonster.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,93 @@
+<Data>
+	<DisplayName>Floor 4</DisplayName>
+	<StartPos>23,4</StartPos>
+	<StartDir>-1,0</StartDir>
+	<PrevFloor>Map3</PrevFloor>
+	<NextFloor>Map5</NextFloor>
+	<EndPos>4,24</EndPos>
+	<EndDir>0,-1</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>4.8</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.7</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Ghoul</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Skel-Swordsman</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Ferocious Ghoul</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Troll</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Cyclops</DisplayName>
+				</Sprite>	
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Mage</Type>
+			<Rate>.1</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Troll</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Shaman</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.2</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Wraith</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>		
+	<Boss>		
+		<Type>Balanced</Type>
+		<Sprite>
+			<Category>Undead</Category>
+			<Name>enemy3</Name>
+			<DisplayName>Reaper</DisplayName>
+		</Sprite>
+		<Location X='4' Y='22' />
+		<PowerScale>6</PowerScale>		
+	</Boss>
+	<Boss>		
+		<Type>Fighter</Type>
+		<Sprite>
+			<Category>Undead</Category>
+			<Name>enemy1</Name>
+			<DisplayName>Mummy King</DisplayName>
+		</Sprite>
+		<Location X='10' Y='20' />
+		<PowerScale>5.5</PowerScale>		
+		<Gold>250</Gold>
+	</Boss>		
+	<Boss>		
+		<Type>Fighter</Type>
+		<Sprite>
+			<Category>Undead</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Mummy King</DisplayName>
+		</Sprite>
+		<Location X='6' Y='5' />
+		<PowerScale>5.5</PowerScale>		
+		<Gold>250</Gold>
+	</Boss>		
+</Data>

@@ -1,0 +1,61 @@
+<Data>
+	<DisplayName>Floor 2</DisplayName>
+	<StartPos>9,6</StartPos>
+	<StartDir>0,-1</StartDir>
+	<PrevFloor>Map1</PrevFloor>
+	<NextFloor>Map3</NextFloor>
+	<EndPos>18,25</EndPos>
+	<EndDir>-1,0</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>2</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.85</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Insect</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Thin Legs</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Animal</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Wild Wolf</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Snake</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Viper</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Insect</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Creeper</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Mage</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Snake</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Ritual Serpent</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>		
+	<Boss>
+		<Name>King Bee</Name>
+		<Type>Fighter</Type>
+		<Sprite>
+			<Category>Insect</Category>
+			<Name>enemy3</Name>
+			<DisplayName>King Bee</DisplayName>
+		</Sprite>
+		<Location X='18' Y='25' />					
+		<PowerScale>3</PowerScale>		
+	</Boss>	
+</Data>

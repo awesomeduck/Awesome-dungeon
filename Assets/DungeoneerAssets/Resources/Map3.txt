@@ -1,0 +1,55 @@
+<Data>
+	<DisplayName>Floor 3</DisplayName>
+	<StartPos>4,27</StartPos>
+	<StartDir>1,0</StartDir>
+	<PrevFloor>Map2</PrevFloor>
+	<NextFloor>Map4</NextFloor>
+	<EndPos>3,23</EndPos>
+	<EndDir>0,-1</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>3.5</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.75</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Infected</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Skel-Knight</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Grave Robber</DisplayName>
+				</Sprite>				
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.25</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Undead</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Wraith</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>		
+	<Boss>		
+		<Type>Tank</Type>
+		<Sprite>
+			<Category>Undead</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Abomination</DisplayName>
+		</Sprite>
+		<Location X='2' Y='21' />
+		<PowerScale>4.5</PowerScale>		
+	</Boss>
+</Data>

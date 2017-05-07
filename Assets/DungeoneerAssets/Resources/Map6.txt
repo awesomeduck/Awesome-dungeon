@@ -1,0 +1,82 @@
+<Data>
+	<DisplayName>Floor 6</DisplayName>
+	<StartPos>8,24</StartPos>
+	<StartDir>0,-1</StartDir>
+	<PrevFloor>Map5</PrevFloor>
+	<NextFloor>Map7</NextFloor>
+	<EndPos>15,20</EndPos>
+	<EndDir>-1,0</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>7</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.65</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Griffon</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Owlman</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Chimera</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Raging Eagle</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>				
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Phoenix</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+		<Availability>
+			<Type>SpeedDemon</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Harpy</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+			<Availability>
+			<Type>Mage</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Feathered Priest</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>	
+	<Boss>		
+		<Type>Fighter</Type>
+		<Sprite>
+			<Category>Flying</Category>
+			<Name>enemy1</Name>
+			<DisplayName>Owl King</DisplayName>
+		</Sprite>
+		<Location X='14' Y='20' />
+		<PowerScale>7.5</PowerScale>				
+	</Boss>		
+</Data>

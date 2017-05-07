@@ -1,0 +1,101 @@
+<Data>
+	<DisplayName>Floor 10</DisplayName>
+	<StartPos>13,3</StartPos>
+	<StartDir>-1,0</StartDir>
+	<PrevFloor>Map9</PrevFloor>
+	<NextFloor>Ending</NextFloor>
+	<EndPos>23,24</EndPos>
+	<EndDir>-1,0</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>9.4</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.75</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Wise Elder</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Old Guard</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Dark Knight</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Cerberus</DisplayName>
+				</Sprite>	
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Wrathful Fiend</DisplayName>
+				</Sprite>					
+			</Sprites>
+		</Availability>				
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Necromancer</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Mage</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Cursed Book</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Learned Slime</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>
+	<Boss>		
+		<Type>Fighter</Type>
+		<Sprite>
+			<Category>Demon</Category>
+			<Name>enemy3</Name>
+			<DisplayName>Dark Beast</DisplayName>
+		</Sprite>
+		<Location X='15' Y='22' />
+		<PowerScale>9.5</PowerScale>				
+	</Boss>		
+	<Boss>		
+		<Type>GlassCannon</Type>
+		<Sprite>
+			<Category>Demon</Category>
+			<Name>enemy1</Name>
+			<DisplayName>Summoned Being</DisplayName>
+		</Sprite>
+		<Location X='18' Y='24' />
+		<PowerScale>10</PowerScale>				
+	</Boss>	
+	<Boss>		
+		<Type>Balanced</Type>
+		<Sprite>
+			<Category>Demon</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Arch-Fiend</DisplayName>
+		</Sprite>
+		<Location X='22' Y='24' />
+		<PowerScale>11</PowerScale>				
+	</Boss>	
+</Data>

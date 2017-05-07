@@ -1,0 +1,82 @@
+<Data>
+	<DisplayName>Floor 5</DisplayName>
+	<StartPos>13,16</StartPos>
+	<StartDir>0,1</StartDir>
+	<PrevFloor>Map4</PrevFloor>
+	<NextFloor>Map6</NextFloor>
+	<EndPos>16,14</EndPos>
+	<EndDir>0,-1</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>5.2</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.65</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Earth</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Cockatrice</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Earth</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Walking Shroom</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Earth</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Hanging Slime</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Earth</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Earth Worm</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Tank</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Earth</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Ent</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+		<Availability>
+			<Type>SpeedDemon</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Harpy</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+			<Availability>
+			<Type>Mage</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Flying</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Feathered Priest</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>		
+	<Boss>		
+		<Type>Fighter</Type>
+		<Sprite>
+			<Category>Flying</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Chimera</DisplayName>
+		</Sprite>
+		<Location X='16' Y='13' />
+		<PowerScale>5.8</PowerScale>				
+	</Boss>			
+</Data>

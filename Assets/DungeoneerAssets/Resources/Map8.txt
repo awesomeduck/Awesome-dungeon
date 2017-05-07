@@ -1,0 +1,76 @@
+<Data>
+	<DisplayName>Floor 8</DisplayName>
+	<StartPos>22,24</StartPos>
+	<StartDir>-1,0</StartDir>
+	<PrevFloor>Map7</PrevFloor>
+	<NextFloor>Map9</NextFloor>
+	<EndPos>8,7</EndPos>
+	<EndDir>1,0</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>8</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.75</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Dozing Dragon</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Ornate Dragon</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Black Dragon</DisplayName>
+				</Sprite>			
+			</Sprites>
+		</Availability>				
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Skel Dragon</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Mage</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Sprit Wyrm</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>
+	<Boss>		
+		<Type>Balanced</Type>
+		<Sprite>
+			<Category>Dragon</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Consumed Dragon</DisplayName>
+		</Sprite>
+		<Location X='21' Y='24' />
+		<PowerScale>8.2</PowerScale>				
+	</Boss>	
+	<Boss>		
+		<Type>Balanced</Type>
+		<Sprite>
+			<Category>Dragon</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Entwined Dragon</DisplayName>
+		</Sprite>
+		<Location X='9' Y='7' />
+		<PowerScale>8.5</PowerScale>				
+	</Boss>	
+</Data>

@@ -1,0 +1,51 @@
+<Data>
+	<DisplayName>Floor 1</DisplayName>	
+	<StartPos>3,2</StartPos>
+	<StartDir>1,0</StartDir>
+	<PrevFloor>Town</PrevFloor>
+	<NextFloor>Map2</NextFloor>
+	<EndPos>18,13</EndPos>
+	<EndDir>-1,0</EndDir>
+	<PowerScale>1</PowerScale>
+	<FightChance>0.1</FightChance>	
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.60</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Insect</Category>
+					<Name>angular-spider2</Name>
+					<DisplayName>Jumping Spider</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Insect</Category>
+					<Name>masked-spider2</Name>
+					<DisplayName>Grim Spider</DisplayName>
+				</Sprite>
+			</Sprites>			
+		</Availability>
+		<Availability>
+			<Type>Tank</Type>
+			<Rate>.20</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Insect</Category>
+					<Name>earwig2</Name>
+					<DisplayName>Giant Earwig</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+				<Availability>
+			<Type>SpeedDemon</Type>
+			<Rate>.20</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Insect</Category>
+					<Name>hanging-spider2</Name>
+					<DisplayName>Hanging Spider</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>		
+</Data>

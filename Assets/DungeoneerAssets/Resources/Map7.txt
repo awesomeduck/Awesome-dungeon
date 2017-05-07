@@ -1,0 +1,56 @@
+<Data>
+	<DisplayName>Floor 7</DisplayName>
+	<StartPos>20,9</StartPos>
+	<StartDir>0,-1</StartDir>
+	<PrevFloor>Map6</PrevFloor>
+	<NextFloor>Map8</NextFloor>
+	<EndPos>3,15</EndPos>
+	<EndDir>1,0</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>7.2</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.75</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Fierce Wyrm</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Land Dragon</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Black Dragon</DisplayName>
+				</Sprite>			
+			</Sprites>
+		</Availability>				
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Skel Dragon</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Mage</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Dragon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Sprit Wyrm</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>		
+</Data>

@@ -1,0 +1,76 @@
+<Data>
+	<DisplayName>Floor 9</DisplayName>
+	<StartPos>6,4</StartPos>
+	<StartDir>0,-1</StartDir>
+	<PrevFloor>Map8</PrevFloor>
+	<NextFloor>Map10</NextFloor>
+	<EndPos>17,15</EndPos>
+	<EndDir>0,-1</EndDir>
+	<FightChance>0.1</FightChance>	
+	<PowerScale>8.5</PowerScale>
+	<MonsterAvailability>
+		<Availability>
+			<Type>Fighter</Type>
+			<Rate>.75</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>Troll</DisplayName>
+				</Sprite>				
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Dark Knight</DisplayName>
+				</Sprite>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy3</Name>
+					<DisplayName>Gargoyle</DisplayName>
+				</Sprite>			
+			</Sprites>
+		</Availability>				
+		<Availability>
+			<Type>Balanced</Type>
+			<Rate>.15</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy2</Name>
+					<DisplayName>All Seeing</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>		
+		<Availability>
+			<Type>Mage</Type>
+			<Rate>.10</Rate>
+			<Sprites>
+				<Sprite>
+					<Category>Demon</Category>
+					<Name>enemy1</Name>
+					<DisplayName>Educated Slime</DisplayName>
+				</Sprite>
+			</Sprites>
+		</Availability>
+	</MonsterAvailability>
+	<Boss>		
+		<Type>Balanced</Type>
+		<Sprite>
+			<Category>Demon</Category>
+			<Name>enemy1</Name>
+			<DisplayName>Gate Keeper</DisplayName>
+		</Sprite>
+		<Location X='18' Y='14' />
+		<PowerScale>9</PowerScale>				
+	</Boss>			
+	<Boss>		
+		<Type>Balanced</Type>
+		<Sprite>
+			<Category>Demon</Category>
+			<Name>enemy2</Name>
+			<DisplayName>Beholder</DisplayName>
+		</Sprite>
+		<Location X='21' Y='14' />
+		<PowerScale>8.8</PowerScale>				
+	</Boss>			
+</Data>
